@@ -1,0 +1,28 @@
+# Python compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+.env
+
+# Firebase / credentials
+*firebase-adminsdk*.json
+service-account.json
+
+# Local PDF uploads & DB volumes
+data/
+qdrant_data/
+
+# Testing & Diagnostics
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build & packaging
+build/
+dist/
+*.egg-info/

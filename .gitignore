@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.next/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Configurations
+.env
+.env.local
+.env.production
+.env.development
+.env*.local
+
+# Firebase Credentials & Private Keys (Security-Critical)
+*firebase-adminsdk*.json
+service-account.json
+backend/service-account.json
+
+# Local PDF Storage & Local Vector DB Data
+backend/data/
+data/
+qdrant_data/
+
+# Python Cache & Build Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+dist/
+build/
+*.egg-info/
+
+# Operating System Metadata
+.DS_Store
+Thumbs.db
