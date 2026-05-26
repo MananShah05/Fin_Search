@@ -37,3 +37,7 @@ build/
 # Operating System Metadata
 .DS_Store
 Thumbs.db
+
+# Project Docs & Examples (User-Requested)
+FinSearch_PRD.md
+.env.example
